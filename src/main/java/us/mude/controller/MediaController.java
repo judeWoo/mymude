@@ -427,14 +427,22 @@ public class MediaController {
     }
 
 
-    @RequestMapping("/media/review")
+    @RequestMapping("/review")
     public String getReviews(
             @RequestParam(name="mediaID") Long mediaID,
             @RequestParam(name="pageNo", defaultValue = GlobalProps.PAGE_START) int pageNo,
             Model model) {
         String next = GlobalProps.REVIEW_PAGE;
         try {
-
+            Optional<Media> o = mediaRepo.findById(mediaID);
+            if (o.isPresent()) {
+                Media movie = o.get();
+                List<Filmography> stars = filmoRepo.findByArtistTypeAndMedia(
+                        ArtistType.CAST,
+                        movie
+                );
+                model.addAttribute("currentMovie", movie);
+            }
             Pageable page = PageRequest.of(pageNo, GlobalProps.ROW_COUNT);
             List<Review> allCritics = reviewRepo.findByRatingTypeAndMedia_idOrderByRegDateDesc(
                     RatingType.CRITIC,

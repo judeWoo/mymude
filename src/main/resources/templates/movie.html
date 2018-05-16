@@ -594,10 +594,10 @@
 										d-lg-none d-md-block d-none text-center">
 											<div class="row mx-0 my-0 px-0 py-0 text-uppercase">
 												<a class="hover-blue ml-auto mr-2 px-0 my-0 py-0" 
-												href="#" th:href="@{/media/review(mediaID=${currentMovie.id}, tab=0)}">
+												href="#" th:href="@{/review(mediaID=${currentMovie.id}, tab=0)}">
 													<b>Critics</b>
 												</a>
-												<a class="hover-blue ml-2 mr-auto px-0 my-0 py-0" href="#" th:href="@{/media/review(mediaID=${currentMovie.id}, tab=1)}">
+												<a class="hover-blue ml-2 mr-auto px-0 my-0 py-0" href="#" th:href="@{/review(mediaID=${currentMovie.id}, tab=1)}">
 													Audiences
 												</a>
 											</div>
@@ -986,7 +986,7 @@
 				</div>
 			</div>
 			<div class="col text-right px-2 my-sm-0 mt-3 mb-0 view-all-a" style="display: none;">
-				<a href="#" th:href="@{/media/review(mediaID=${currentMovie.id}, tab=0)}" class="mr-auto text-danger-light hover-dark">
+				<a href="#" th:href="@{/review(mediaID=${currentMovie.id}, tab=0)}" class="mr-auto text-danger-light hover-dark">
 					<b>View All Audience Reviews</b>
 				</a>
 			</div>
@@ -1050,7 +1050,7 @@
 				</div>
 			</div>
 			<div class="col text-right px-2 my-sm-0 mt-3 mb-0 view-all-c" style="display: none;">
-				<a href="#" th:href="@{/media/review(mediaID=${currentMovie.id}, tab=1)}" class="mr-auto text-danger-light hover-dark">
+				<a href="#" th:href="@{/review(mediaID=${currentMovie.id}, tab=1)}" class="mr-auto text-danger-light hover-dark">
 					<b>View All Critic Reviews</b>
 				</a>
 			</div>
