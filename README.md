@@ -6,7 +6,6 @@ CSE308, Spring 2018, Stony Brook University
 
 ## Team Members
 
-* Project Manager: Rimack Zelnick
 * Lead Programmer: Wonyong Jeong (Young)
 * UI Designer:    Hokyoon Woo (Jude)
 * Data Engineer:   Brijesh Patel
