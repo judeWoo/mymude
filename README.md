@@ -1,5 +1,7 @@
 # CSE308 MUDE (Team Pine)
 
+http://mude-env-1.ppm5bbyyzq.us-east-1.elasticbeanstalk.com/
+
 CSE308, Spring 2018, Stony Brook University
 
 ## Team Members
