@@ -7,8 +7,8 @@ CSE308, Spring 2018, Stony Brook University
 ## Team Members
 
 * Lead Programmer: Wonyong Jeong (Young)
-* UI Designer:    Hokyoon Woo (Jude)
-* Data Engineer:   Brijesh Patel
+* Full Stack (UI) Engineer:    Hokyoon Woo (Jude)
+* Full Stack (DATA) Engineer:   Brijesh Patel
 
 ## Stack Specification
 
