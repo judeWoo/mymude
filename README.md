@@ -34,5 +34,5 @@ CSE308, Spring 2018, Stony Brook University
 etc.
 
 ### Run
-./gradlew build
-java -jar build/libs/mude-master.jar
+* ./gradlew build
+* java -jar build/libs/mude-master.jar
