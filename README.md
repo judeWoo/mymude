@@ -1,6 +1,6 @@
 # CSE308 MUDE (Team Pine)
 
-https://itsmude.com
+http://itsmude.com
 
 CSE308, Spring 2018, Stony Brook University
 
