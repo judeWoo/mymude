@@ -32,3 +32,7 @@ CSE308, Spring 2018, Stony Brook University
 * MySQL
 * Python
 etc.
+
+### Run
+./gradlew build
+java -jar build/libs/mude-master.jar
