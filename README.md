@@ -33,7 +33,23 @@ CSE308, Spring 2018, Stony Brook University
 * Python
 etc.
 
-### Run
-./gradlew build
+### Instructions
+1. Clone the github repository
+```
+git clone https://github.com/judeWoo/mymude.git
+cd mymude-master
+```
+2. Build using gradle wrapper (included in the repository)
 
+On Linux/Mac
+```
+./gradlew build
+java -jar build/libs/mymude-master.jar
+```
+On Windows
+```
+gradlew buildPlugin
 java -jar build/libs/mude-master.jar
+```
+3. Navigate to http://localhost:5000
+4. Port number can be changed inside ```application.properties```
