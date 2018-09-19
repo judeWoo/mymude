@@ -49,7 +49,7 @@ java -jar build/libs/mymude-master.jar
 On Windows
 ```
 gradlew buildPlugin
-java -jar build/libs/mude-master.jar
+java -jar build/libs/mymude-master.jar
 ```
 3. Navigate to http://localhost:5000
 4. Port number can be changed inside ```application.properties```
