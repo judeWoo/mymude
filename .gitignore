@@ -22,6 +22,7 @@
 \node_modules/
 
 \.DS_Store
+
 mvnw
 
 mvnw\.cmd
@@ -42,7 +43,4 @@ db/MySQL/pine.mwb
 
 bin/
 
-src/main/resources/static/resource
 *.mp4
-
-src/main/resources/application.properties

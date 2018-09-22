@@ -120,7 +120,7 @@ public class MemberController {
             long unixEpochTime = System.currentTimeMillis( ) / 1000L;
             String qtoken = Base64.getEncoder( ).encodeToString( md.digest( Long.toString( unixEpochTime ).getBytes( "UTF-8" ) ) );
             String title = "Mude Registration E-mail";
-            String content = "Hello "  + firstName  + "! Your activation link is http://"  + GlobalProps.HOSTNAME
+            String content = "Hello "  + firstName  + "! Your activation link is https://"  + GlobalProps.HOSTNAME
                     + "/validation?token=" + URLEncoder.encode( qtoken, "UTF-8");
 
             Optional<Member> om = memberRepo.findByEmail( addr );

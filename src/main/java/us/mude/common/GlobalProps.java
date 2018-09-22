@@ -37,12 +37,12 @@ public class GlobalProps {
     public static final String POSTER = "photos/0.jpg";
     public static final String BANNER = "photos/0_heroImage.jpg";
 
-    public static final String HOSTNAME = "mude.us-east-1.elasticbeanstalk.com";
+    public static final String HOSTNAME = "itsmude.com";
     public static final String MAILFROM = "registration@mail.mude.us";
     public static final String SYS_USR = "mude";
     public static final String SYS_PWD = "password";
 
-    public static final String FS_URI = "http://23.94.27.164";
+    public static final String FS_URI = "https://23.94.27.164";
 
     public static final String MUDEMETER_START = "1";
     public static final String MUDEMETER_END = "99";
