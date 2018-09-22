@@ -728,7 +728,7 @@
                                     else if(movie.mediaType == "EPISODE")
                                         $(this).find(".media-page").attr("href","/episode?mediaID="+movie.id);
 
-                                    $(this).find("img").attr("src", "https://23.94.27.164/"+movie.resourcePath+"/photos/0.jpg");
+                                    $(this).find("img").attr("src", "http://23.94.27.164/"+movie.resourcePath+"/photos/0.jpg");
                                     $(this).find("h6").text(""+movie.mediaName);
                                     $(this).find(".child-score").text(""+Math.round(movie.mudemeter.criticMudemeter)+"%");
                                     $(this).find(".child-cast").text(""+movie.from);
@@ -752,7 +752,7 @@
                                     else if(movies[i].mediaType == "EPISODE")
                                         $(this).find(".media-page").attr("href","/episode?mediaID="+movies[i].id);
 
-                                    $(this).find("img").attr("src", "https://23.94.27.164/"+movies[i].resourcePath+"/photos/0.jpg");
+                                    $(this).find("img").attr("src", "http://23.94.27.164/"+movies[i].resourcePath+"/photos/0.jpg");
                                     $(this).find("h6").text(""+movies[i].mediaName);
                                     $(this).find(".child-score").text(""+Math.round(movies[i].mudemeter.criticMudemeter)+"%");
                                     $(this).find(".child-cast").text(""+movies[i].from);
