@@ -33,7 +33,7 @@ CSE308, Spring 2018, Stony Brook University
 * Python
 etc.
 
-### Instructions
+## Instructions
 1. Clone the github repository
 ```
 git clone https://github.com/judeWoo/mymude.git
