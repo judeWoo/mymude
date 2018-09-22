@@ -37,7 +37,7 @@ etc.
 1. Clone the github repository
 ```
 git clone https://github.com/judeWoo/mymude.git
-cd mymude-master
+cd mymude
 ```
 2. Build using gradle wrapper (included in the repository)
 
